@@ -1,0 +1,174 @@
+{
+  "configById": {
+    "3D!122xwsl": {
+      "topics": {
+        "/scan": {
+          "visible": true,
+          "colorField": "intensity",
+          "colorMode": "colormap",
+          "colorMap": "turbo"
+        }
+      },
+      "layers": {
+        "11afa761-ae99-4f15-a7a7-85bced3de64d": {
+          "layerId": "foxglove.Grid",
+          "instanceId": "11afa761-ae99-4f15-a7a7-85bced3de64d"
+        }
+      },
+      "cameraState": {
+        "perspective": true,
+        "distance": 6.470670899474121,
+        "phi": 60.000000000000185,
+        "thetaOffset": 60.000000000000426,
+        "targetOffset": [
+          0,
+          0,
+          0
+        ],
+        "target": [
+          0,
+          0,
+          0
+        ],
+        "targetOrientation": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "fovy": 45,
+        "near": 0.5,
+        "far": 5000
+      },
+      "followMode": "follow-pose",
+      "scene": {},
+      "transforms": {},
+      "publish": {
+        "type": "point",
+        "poseTopic": "/move_base_simple/goal",
+        "pointTopic": "/clicked_point",
+        "poseEstimateTopic": "/initialpose",
+        "poseEstimateXDeviation": 0.5,
+        "poseEstimateYDeviation": 0.5,
+        "poseEstimateThetaDeviation": 0.26179939
+      },
+      "synchronize": false,
+      "imageMode": {}
+    },
+    "Plot!4me58": {
+      "paths": [
+        {
+          "value": "/cmd_vel.linear.x",
+          "enabled": true,
+          "color": "#4e98e2",
+          "id": "f28a9d30-15a6-4eaa-9f47-a0644ed0e7a3"
+        },
+        {
+          "value": "/cmd_vel.linear.y",
+          "enabled": true,
+          "color": "#f5774d",
+          "id": "7db70f31-0326-48fe-91b8-be60e1fad88c"
+        },
+        {
+          "value": "/cmd_vel.linear.z",
+          "enabled": true,
+          "color": "#f7df71",
+          "id": "c3018f64-ca34-447d-a438-28cd3f146f91"
+        }
+      ],
+      "showLegend": false,
+      "foxglovePanelTitle": "/cmd_vel"
+    },
+    "Plot!256ahcw": {
+      "paths": [
+        {
+          "value": "/cmd_vel.angular.x",
+          "enabled": true,
+          "color": "#5cd6a9",
+          "id": "a5cf035c-e282-4a9a-a448-3ece086dd7cc"
+        },
+        {
+          "value": "/cmd_vel.angular.y",
+          "enabled": true,
+          "color": "#61cbff",
+          "id": "0089d926-7ae0-4472-9665-1bfd06c6140b"
+        },
+        {
+          "value": "/cmd_vel.angular.z",
+          "enabled": true,
+          "color": "#a395e2",
+          "id": "90be4794-8ce6-4665-aa69-9afb5e088941"
+        }
+      ],
+      "showLegend": false,
+      "foxglovePanelTitle": "/cmd_vel"
+    },
+    "Plot!3qo6tm1": {
+      "paths": [
+        {
+          "value": "/health/battery_level.data",
+          "enabled": true,
+          "color": "#cad660",
+          "id": "39a95f80-28db-42fc-afd7-c59ad2c815bf"
+        }
+      ],
+      "showLegend": false,
+      "foxglovePanelTitle": "/health/battery_level"
+    },
+    "Plot!i9a89w": {
+      "paths": [
+        {
+          "value": "/health/motor_temp.data",
+          "enabled": true,
+          "color": "#4e98e2",
+          "id": "0d94995e-8512-4d82-83b4-c61025199e2d"
+        }
+      ],
+      "showLegend": false,
+      "foxglovePanelTitle": "/health/motor_temp"
+    },
+    "RawMessages!2zkw20z": {
+      "topicPath": "/rosout"
+    },
+    "Tab!2lqsmm6": {
+      "activeTabIdx": 0,
+      "tabs": [
+        {
+          "title": "Overview",
+          "layout": {
+            "direction": "column",
+            "first": {
+              "direction": "row",
+              "first": "3D!122xwsl",
+              "second": {
+                "direction": "column",
+                "first": "Plot!4me58",
+                "second": {
+                  "direction": "column",
+                  "first": "Plot!256ahcw",
+                  "second": {
+                    "direction": "column",
+                    "first": "Plot!3qo6tm1",
+                    "second": "Plot!i9a89w",
+                    "splitPercentage": 50
+                  },
+                  "splitPercentage": 33.333333333333336
+                },
+                "splitPercentage": 25
+              },
+              "splitPercentage": 60
+            },
+            "second": "RawMessages!2zkw20z",
+            "splitPercentage": 80
+          }
+        }
+      ]
+    }
+  },
+  "layout": "Tab!2lqsmm6",
+  "globalVariables": {},
+  "playbackConfig": {
+    "speed": 1
+  },
+  "userNodes": {}
+}

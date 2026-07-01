@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/robot_health_monitor/robot_health_monitor.egg-info
+writing ../../build/robot_health_monitor/robot_health_monitor.egg-info/PKG-INFO
+writing dependency_links to ../../build/robot_health_monitor/robot_health_monitor.egg-info/dependency_links.txt
+writing entry points to ../../build/robot_health_monitor/robot_health_monitor.egg-info/entry_points.txt
+writing requirements to ../../build/robot_health_monitor/robot_health_monitor.egg-info/requires.txt
+writing top-level names to ../../build/robot_health_monitor/robot_health_monitor.egg-info/top_level.txt
+writing manifest file '../../build/robot_health_monitor/robot_health_monitor.egg-info/SOURCES.txt'
+reading manifest file '../../build/robot_health_monitor/robot_health_monitor.egg-info/SOURCES.txt'
+writing manifest file '../../build/robot_health_monitor/robot_health_monitor.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/naserddinee0/telemetry_ws/build/robot_health_monitor/build
+creating /home/naserddinee0/telemetry_ws/build/robot_health_monitor/build/lib
+creating /home/naserddinee0/telemetry_ws/build/robot_health_monitor/build/lib/robot_health_monitor
+copying robot_health_monitor/__init__.py -> /home/naserddinee0/telemetry_ws/build/robot_health_monitor/build/lib/robot_health_monitor
+copying robot_health_monitor/diagnostic_node.py -> /home/naserddinee0/telemetry_ws/build/robot_health_monitor/build/lib/robot_health_monitor
+running install
+running install_lib
+creating /home/naserddinee0/telemetry_ws/install/robot_health_monitor/lib/python3.10/site-packages/robot_health_monitor
+copying /home/naserddinee0/telemetry_ws/build/robot_health_monitor/build/lib/robot_health_monitor/__init__.py -> /home/naserddinee0/telemetry_ws/install/robot_health_monitor/lib/python3.10/site-packages/robot_health_monitor
+copying /home/naserddinee0/telemetry_ws/build/robot_health_monitor/build/lib/robot_health_monitor/diagnostic_node.py -> /home/naserddinee0/telemetry_ws/install/robot_health_monitor/lib/python3.10/site-packages/robot_health_monitor
+byte-compiling /home/naserddinee0/telemetry_ws/install/robot_health_monitor/lib/python3.10/site-packages/robot_health_monitor/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/naserddinee0/telemetry_ws/install/robot_health_monitor/lib/python3.10/site-packages/robot_health_monitor/diagnostic_node.py to diagnostic_node.cpython-310.pyc
+running install_data
+creating /home/naserddinee0/telemetry_ws/install/robot_health_monitor/share/ament_index
+creating /home/naserddinee0/telemetry_ws/install/robot_health_monitor/share/ament_index/resource_index
+creating /home/naserddinee0/telemetry_ws/install/robot_health_monitor/share/ament_index/resource_index/packages
+copying resource/robot_health_monitor -> /home/naserddinee0/telemetry_ws/install/robot_health_monitor/share/ament_index/resource_index/packages
+copying package.xml -> /home/naserddinee0/telemetry_ws/install/robot_health_monitor/share/robot_health_monitor
+running install_egg_info
+Copying ../../build/robot_health_monitor/robot_health_monitor.egg-info to /home/naserddinee0/telemetry_ws/install/robot_health_monitor/lib/python3.10/site-packages/robot_health_monitor-0.0.0-py3.10.egg-info
+running install_scripts
+Installing diagnostic_node script to /home/naserddinee0/telemetry_ws/install/robot_health_monitor/lib/robot_health_monitor
+writing list of installed files to '/home/naserddinee0/telemetry_ws/build/robot_health_monitor/install.log'

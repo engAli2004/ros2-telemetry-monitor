@@ -1,0 +1,3 @@
+[console_scripts]
+diagnostic_node = robot_health_monitor.diagnostic_node:main
+
