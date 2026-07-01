@@ -1,13 +1,13 @@
 # ROS 2 Autonomous Telemetry & Diagnostics Monitor
 **A mechatronics health-monitoring bridge between physical simulation (Gazebo) and visual observability (Foxglove Studio).**
 
-*(Insert your screen recording here showing the robot moving and the gauges reacting)*
+<img width="1920" height="981" alt="image" src="https://github.com/user-attachments/assets/c858eb28-34f9-483e-a185-efdc727f011b" />
 
 ## Executive Summary
 In autonomous robotics, building the agent is only half the engineering challenge; maintaining operational observability is the other. This project simulates a mobile autonomous agent and calculates real-time hardware diagnostics (motor thermal load and battery discharge) based on physical kinematic states.
 
 The system acts as a "diagnostic node," subscribing to raw physical odometry and publishing calculated hardware health metrics to an industrial-grade telemetry dashboard.
-<img width="1920" height="981" alt="image" src="https://github.com/user-attachments/assets/c858eb28-34f9-483e-a185-efdc727f011b" />
+
 
 
 ## System Architecture
