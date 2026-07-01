@@ -23,18 +23,18 @@ The system acts as a "diagnostic node," subscribing to raw physical odometry and
 ```bash
 source /opt/ros/humble/setup.bash
 
-**2. Launch the Simulation (Terminal 1):
+**2. Launch the Simulation (Terminal 1):**
 ```bash
 export TURTLEBOT3_MODEL=burger
 ros2 launch turtlebot3_gazebo empty_world.launch.py
 
-**3. Run the Diagnostic Node (Terminal 2):
+**3. Run the Diagnostic Node (Terminal 2):**
 ```bash
 cd ~/telemetry_ws
 colcon build
 source install/setup.bash
 ros2 run robot_health_monitor diagnostic_node
 
-**4. Start the Telemetry Bridge (Terminal 3):
+**4. Start the Telemetry Bridge (Terminal 3):**
 ```bash
 ros2 launch foxglove_bridge foxglove_bridge_launch.xml
